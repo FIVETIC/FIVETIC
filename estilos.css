@@ -1,25 +1,51 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-#horizontal_navbar {
-    width: 100%;
-    height: 80px;
-    background-color: burlywood;
+#horizontal_navbar{
+    background-color:green;
+    margin: 0px;    
 }
 
 #landing_logo{
-    width: 70px;
+    width: 100px;
+    padding: 25px;
+}
+#boton_registro_usuario{
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 40px;
+    height: 100px;
+    list-style: none;
+    float: right;
+    box-sizing: border-box;
+    background-color:yellow;
+    font-style: italic;
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+#boton_registro_usuario:hover{
+    background-color: white;
+}
+h1{
+    font-style: oblique;
+    color:gold;
+    float:right;
+    width: 500px;
+    height: 100px;
+    margin-top: 25px;
+    margin-right: 50px;
 }
 
-#irA_registro_usuario{
+p{
     float: right;
-    text-decoration: none;
-    margin-top: 15px;
-    margin-right: 20px;
-    color: grey;
-    border: 1px solid whitesmoke;
-    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    width: 700px;    
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: large;
+}
+
+#landing_logo2{
+    width: 500px;
+    float: left;
 }
